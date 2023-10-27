@@ -1,0 +1,37 @@
+{
+  "name": "jonathanwambua/pesapal",
+  "description": "A laravel package that integrates into the pesapal api 3",
+  "keywords": [
+    "pesapal api 3",
+    "laravel",
+    "laravel 5",
+    "laravel 6",
+    "laravel 7",
+    "laravel 8",
+    "laravel 9",
+    "MPESA",
+    "payments",
+    "VISA",
+    "Mastercard",
+    "Airtel"
+  ],
+  "homepage": "https://github.com/jonathanwambua/pesapal",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Jonathan Wambua",
+      "email": "jonathanwambua10219@gmail.com",
+      "role": "Developer"
+    }
+  ],
+  "minimum-stability": "stable",
+  "require": {
+    "php": ">=7|^8.0|^8.1|^8.2",
+    "illuminate/support": "^5.5|^6.0|^7.0|^8.0|^9.0|^10.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Jonathanwambua\\Pesapal\\": "src/"
+    }
+  }
+}
